@@ -1,14 +1,13 @@
 import { expect, test } from "vitest";
 import { linear_search_list } from "./linear-search-list";
 
-test("should return true if number is present in a given list of numbers", () => {
-  expect(linear_search_list([1, 2, 3, 4, 5], 3)).toBe(true);
-});
+test("linear_search_list works correctly", () => {
+  const array = [1, 3, 4, 69, 71, 81, 90, 99, 420, 1337, 69420];
 
-test("should return false if number is not present in a given list of numbers", () => {
-  expect(linear_search_list([1, 2, 3, 4, 5], 10)).toBe(false);
-});
-
-test("should compare value against list item not its index", () => {
-  expect(linear_search_list([1], 1)).toBe(true);
+  expect(linear_search_list(array, 69)).toEqual(true);
+  expect(linear_search_list(array, 1336)).toEqual(false);
+  expect(linear_search_list(array, 69420)).toEqual(true);
+  expect(linear_search_list(array, 69421)).toEqual(false);
+  expect(linear_search_list(array, 1)).toEqual(true);
+  expect(linear_search_list(array, 0)).toEqual(false);
 });

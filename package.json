@@ -1,0 +1,12 @@
+{
+  "name": "algorithms",
+  "description": "A repository where I explore algorithms",
+  "author": "snacksncode <snacksncode@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^0.29.3"
+  }
+}

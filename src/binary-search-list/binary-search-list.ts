@@ -1,4 +1,4 @@
-// Runtime complexity of binary search is O(logN), and it requires the input array to be sorted
+// Runtime complexity of binary search is O(log(n)), and it requires the input array to be sorted
 // In term of pointers, left pointer is inclusive and right one is exclusive, so for array [1,3,5] pointers would be [0,3)
 
 export function binary_search_list(array: number[], target: number): boolean {

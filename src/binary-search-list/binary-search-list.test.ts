@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { binary_search_list } from "./binary-search-list";
+import { binary_search_list } from "@/binary-search-list";
 
 test("binary_search_list works correctly", () => {
   const array = [1, 3, 4, 69, 71, 81, 90, 99, 420, 1337, 69420];

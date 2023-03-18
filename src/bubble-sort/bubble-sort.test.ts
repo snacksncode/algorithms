@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { bubble_sort } from "./bubble-sort";
+import { bubble_sort } from "@/bubble-sort";
 
 test("bubble-sort does the thing", function () {
   const arr = [9, 3, 7, 4, 69, 420, 42];

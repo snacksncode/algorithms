@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { two_crystal_balls_problem } from "./two-crystal-balls-problem";
+import { two_crystal_balls_problem } from "@/two-crystal-balls-problem";
 
 test("Two crystal balls problem", () => {
   const SIZE = 10_000;

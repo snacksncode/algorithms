@@ -1,15 +1,11 @@
 {
   "name": "algorithms",
-  "description": "A repository where I explore algorithms",
   "author": "snacksncode <snacksncode@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "vitest"
-  },
+  "module": "index.ts",
   "devDependencies": {
-    "typescript": "^5.0.2",
-    "vite": "^4.2.0",
-    "vite-tsconfig-paths": "^4.0.7",
-    "vitest": "^0.29.3"
-  }
+    "@types/bun": "latest"
+  },
+  "description": "A repository where I explore algorithms",
+  "license": "MIT",
+  "type": "module"
 }

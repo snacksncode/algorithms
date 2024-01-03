@@ -1,4 +1,4 @@
-import { expect, test } from "vitest";
+import { expect, test } from "bun:test";
 import { binary_search_list } from "@/binary-search-list";
 
 test("binary_search_list works correctly", () => {

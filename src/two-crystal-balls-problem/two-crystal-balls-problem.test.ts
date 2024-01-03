@@ -1,4 +1,4 @@
-import { expect, test } from "vitest";
+import { expect, test } from "bun:test";
 import { two_crystal_balls_problem } from "@/two-crystal-balls-problem";
 
 test("Two crystal balls problem", () => {

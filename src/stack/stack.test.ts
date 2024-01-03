@@ -1,5 +1,5 @@
 import { Stack } from "@/stack/stack";
-import { expect, test } from "vitest";
+import { expect, test } from "bun:test";
 
 test("stack", function () {
   const stack = new Stack<number>();
@@ -17,7 +17,7 @@ test("stack", function () {
   expect(stack.pop()).toEqual(7);
   expect(stack.peek()).toEqual(5);
   expect(stack.pop()).toEqual(5);
-  expect(stack.pop()).toEqual(undefined);
+  expect(stack.pop()).toBeUndefined();
 
   stack.push(69);
   expect(stack.peek()).toEqual(69);

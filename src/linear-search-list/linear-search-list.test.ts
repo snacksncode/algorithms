@@ -1,4 +1,4 @@
-import { expect, test } from "vitest";
+import { expect, test } from "bun:test";
 import { linear_search_list } from "@/linear-search-list";
 
 test("linear_search_list works correctly with numbers", () => {
